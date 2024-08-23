@@ -1,0 +1,15 @@
+input {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 10px;
+}
+
+/* Firefox */
+::placeholder {
+    @apply to-black;
+}
+
+/* Edge 12 -18 */
+::-ms-input-placeholder {
+    @apply to-black;
+}

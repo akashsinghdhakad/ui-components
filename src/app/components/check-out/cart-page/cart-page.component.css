@@ -1,0 +1,2552 @@
+.street-genetics {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .store-name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .home,
+  .shop {
+    cursor: pointer;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+    min-width: 58px;
+  }
+  .shop {
+    min-width: 53px;
+  }
+  .about,
+  .contact,
+  .shop {
+    position: relative;
+    display: inline-block;
+  }
+  .about {
+    min-width: 66px;
+    cursor: pointer;
+  }
+  .contact {
+    min-width: 96px;
+  }
+  .home-parent {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #ababab;
+    font-family: Poppins;
+  }
+  .frame-wrapper,
+  .store-name-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    margin: 0;
+    flex: 1;
+    flex-direction: column;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+  }
+  .store-name-parent {
+    width: 641px;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .profile-icon {
+    width: 25.8px;
+    height: 23px;
+    position: relative;
+  }
+  .profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+  }
+  .bag,
+  .wishlist-icon {
+    height: 24px;
+    width: 26px;
+    position: relative;
+  }
+  .bag {
+    margin: 0;
+    height: 25px;
+    width: 28px;
+    min-height: 25px;
+  }
+  .icons,
+  .icons-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .icons {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .icons-wrapper {
+    flex-direction: column;
+    padding: 6.5px 0 0;
+  }
+  
+  .cart {
+    color: #0b78a7;
+  }
+  .address,
+  .cart,
+  .payment {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    min-width: 70px;
+  }
+  .cart-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .frame-child {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .highlight1 {
+    width: 14px;
+    height: 2px;
+    position: relative;
+    border-radius: 1px;
+    background-color: #0b78a7;
+    transform: rotate(180deg);
+  }
+  .highlight-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 2px;
+  }
+  .track,
+  .track1 {
+    border-radius: 1px;
+    background-color: #ababab;
+  }
+  .track1 {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 0.5px);
+    right: 0;
+    left: 0;
+    height: 2px;
+    display: none;
+  }
+  .track {
+    height: 7px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .highlight {
+    width: 394px;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 6px;
+    left: calc(50% - 197px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 5px 0 0;
+    box-sizing: border-box;
+    gap: 1px;
+    z-index: 1;
+  }
+  .frame-item {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .highlight-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .frame-inner {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .frame-parent1,
+  .frame-wrapper1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper1 {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+  }
+  .frame-parent1 {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .frame-div {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 74px;
+    box-sizing: border-box;
+  }
+  .frame-container,
+  .frame-div,
+  .frame-group {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    width: 552px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .order-summary {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .basic-women-oversized-t-shirt,
+  .product-hover-child {
+    position: absolute;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .product-hover-child {
+    top: calc(50% - 74px);
+    left: calc(50% - 74px);
+    width: 100%;
+    height: 100%;
+  }
+  .basic-women-oversized-t-shirt {
+    top: calc(50% - 59.8px);
+    left: 9.7px;
+    width: 138.3px;
+    height: 133.8px;
+    z-index: 1;
+  }
+  .product-hover {
+    height: 148px;
+    width: 148px;
+    position: relative;
+    min-width: 148px;
+  }
+  .name-of-this {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+  }
+  .size,
+  .xs {
+    position: relative;
+    display: inline-block;
+    min-width: 31px;
+  }
+  .xs {
+    min-width: 20px;
+  }
+  .navigationarrow-drop-down-24p-icon {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .xs-parent {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 13px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .size-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .div,
+  .quantity {
+    position: relative;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .div {
+    min-width: 16px;
+  }
+  .navigationarrow-drop-down-24p-icon1 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .parent {
+    width: 72px;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 15px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .frame-parent4,
+  .quantity-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .frame-parent4 {
+    width: 173px;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+  .name-of-this-printed-t-shirt-p-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div1 {
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 58px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-parent3,
+  .product-hover-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent3 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-width: 221px;
+    min-height: 148px;
+  }
+  .product-hover-parent {
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #2f2f2f;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 14px 16px;
+    gap: 24px;
+  }
+  .basic-women-oversized-t-shirt1,
+  .product-hover-item {
+    position: absolute;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .product-hover-item {
+    top: calc(50% - 74px);
+    left: calc(50% - 74px);
+    width: 100%;
+    height: 100%;
+  }
+  .basic-women-oversized-t-shirt1 {
+    top: calc(50% - 59.8px);
+    left: 9.7px;
+    width: 138.3px;
+    height: 133.8px;
+    z-index: 1;
+  }
+  .product-hover1 {
+    height: 148px;
+    width: 148px;
+    position: relative;
+    min-width: 148px;
+  }
+  .name-of-this1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+  }
+  .size1,
+  .xs1 {
+    position: relative;
+    display: inline-block;
+    min-width: 31px;
+  }
+  .xs1 {
+    min-width: 20px;
+  }
+  .navigationarrow-drop-down-24p-icon2 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .xs-group {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 13px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .size-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .div2,
+  .quantity1 {
+    position: relative;
+    display: inline-block;
+    min-width: 77px;
+  }
+  .div2 {
+    min-width: 16px;
+  }
+  .navigationarrow-drop-down-24p-icon3 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .group {
+    width: 72px;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 15px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .frame-parent6,
+  .quantity-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .frame-parent6 {
+    width: 173px;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+  .name-of-this-printed-t-shirt-p-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div3 {
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 58px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-parent5,
+  .product-hover-group {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent5 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-width: 221px;
+    min-height: 148px;
+  }
+  .product-hover-group {
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #2f2f2f;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 14px 16px;
+    gap: 24px;
+  }
+  .product-hover-inner {
+    position: absolute;
+    top: calc(50% - 74px);
+    left: calc(50% - 74px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt2 {
+    position: absolute;
+    top: calc(50% - 59.8px);
+    left: 9.7px;
+    border-radius: 20px;
+    width: 138.3px;
+    height: 133.8px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover2 {
+    height: 148px;
+    width: 148px;
+    position: relative;
+    min-width: 148px;
+  }
+  .name-of-this2 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+  }
+  .name-of-this2,
+  .size2,
+  .xs2 {
+    position: relative;
+  }
+  .navigationarrow-drop-down-24p-icon4 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .xs-container {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 13px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .size-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .div4,
+  .quantity2 {
+    position: relative;
+  }
+  .navigationarrow-drop-down-24p-icon5 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .container {
+    width: 72px;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 15px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .frame-parent8,
+  .quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .frame-parent8 {
+    width: 173px;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+  .name-of-this-printed-t-shirt-p-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div5 {
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .frame-parent7,
+  .product-hover-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent7 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    min-width: 221px;
+    min-height: 148px;
+  }
+  .product-hover-container {
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #2f2f2f;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 14px 16px;
+    gap: 24px;
+  }
+  .basic-women-oversized-t-shirt3,
+  .rectangle-icon {
+    position: absolute;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .rectangle-icon {
+    top: calc(50% - 74px);
+    left: calc(50% - 74px);
+    width: 100%;
+    height: 100%;
+  }
+  .basic-women-oversized-t-shirt3 {
+    top: calc(50% - 59.8px);
+    left: 9.7px;
+    width: 138.3px;
+    height: 133.8px;
+    z-index: 1;
+  }
+  .product-hover3 {
+    height: 148px;
+    width: 148px;
+    position: relative;
+    min-width: 148px;
+  }
+  .name-of-this3 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+  }
+  .name-of-this3,
+  .size3,
+  .xs3 {
+    position: relative;
+  }
+  .navigationarrow-drop-down-24p-icon6 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .xs-parent1 {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 13px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .size-parent1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .div6,
+  .quantity3 {
+    position: relative;
+  }
+  .navigationarrow-drop-down-24p-icon7 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+  }
+  .parent1 {
+    width: 72px;
+    border-radius: 4px;
+    background-color: #000;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 15px;
+    gap: 12px;
+    text-align: center;
+    color: #ababab;
+  }
+  .frame-parent10,
+  .quantity-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .frame-parent10 {
+    width: 173px;
+    flex-direction: row;
+    gap: 24px;
+    font-size: 16px;
+    color: #6c6c6c;
+  }
+  .name-of-this-printed-t-shirt-p-parent1 {
+    align-self: stretch;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .div7 {
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frame-parent9 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    min-width: 221px;
+    min-height: 148px;
+    max-width: 100%;
+  }
+  .instance-parent,
+  .product-hover-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .product-hover-parent1 {
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #2f2f2f;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 14px 16px;
+    max-width: 100%;
+  }
+  .instance-parent {
+    flex: 1;
+    flex-direction: column;
+    max-width: calc(100% - 576px);
+    flex-shrink: 0;
+  }
+  .price-details1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .total-mrp {
+    display: inline-block;
+    min-width: 106px;
+  }
+  .coupon-discount,
+  .delivery-charges,
+  .discount-on-mrp,
+  .total-mrp {
+    position: relative;
+    line-height: 24px;
+  }
+  .total-mrp-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 194px;
+  }
+  .div8 {
+    font-weight: 500;
+    display: inline-block;
+    min-width: 63px;
+    white-space: nowrap;
+  }
+  .apply-coupon,
+  .div8,
+  .div9 {
+    position: relative;
+    line-height: 24px;
+  }
+  .div9 {
+    font-weight: 500;
+    color: #88a86e;
+    display: inline-block;
+    min-width: 57px;
+  }
+  .apply-coupon {
+    text-decoration: underline;
+    color: #0b78a7;
+  }
+  .calculated-at-next {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+  }
+  .parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 194px;
+    text-align: right;
+    color: #ababab;
+  }
+  .frame-parent11 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #6c6c6c;
+  }
+  .price-details-child {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid #555;
+    box-sizing: border-box;
+  }
+  .order-total {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .div10 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 75px;
+    white-space: nowrap;
+  }
+  .order-total-parent,
+  .price-details {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .order-total-parent {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 0 0;
+    gap: 20px;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .price-details {
+    border-radius: 20px;
+    background-color: #000;
+    border: 1px solid #6c6c6c;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 22px 21px 22px 24px;
+    gap: 9.7px;
+  }
+  .add-to-cart {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #cdcdcd;
+    text-align: center;
+  }
+  .button,
+  .price-details-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .button {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 20px;
+    background-color: #0b78a7;
+    align-self: stretch;
+    border-radius: 56px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .button:hover {
+    background-color: #309ecf;
+  }
+  .price-details-parent {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+    max-width: calc(100% - 576px);
+    flex-shrink: 0;
+    font-size: 20px;
+    color: #cdcdcd;
+  }
+  .frame-parent2,
+  .order-summary-parent {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .frame-parent2 {
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 122px;
+    box-sizing: border-box;
+    gap: 24px;
+    max-width: 100%;
+  }
+  .order-summary-parent {
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .cart-extended-1-inner,
+  .frame-parent,
+  .order-summary-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    width: 1128px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 65px;
+  }
+  .cart-extended-1-inner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: #ababab;
+    font-family: Poppins;
+  }
+  .cart-extended-1 {
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 52px;
+    background-image: url(/images/cart-extended-1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1125px) {
+    .frame-parent {
+      gap: 32px;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .frame-wrapper {
+      display: none;
+    }
+    .store-name-parent {
+      width: 248px;
+    }
+    .instance-parent,
+    .price-details-parent {
+      display: none;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .store-name-parent {
+      gap: 40px;
+    }
+    .frame-div {
+      padding-left: 24px;
+      padding-right: 24px;
+      box-sizing: border-box;
+    }
+    .frame-div {
+      padding-left: 37px;
+      padding-right: 37px;
+    }
+    .product-hover {
+      flex: 1;
+    }
+    .product-hover-parent {
+      flex-wrap: wrap;
+    }
+    .product-hover1 {
+      flex: 1;
+    }
+    .product-hover-group {
+      flex-wrap: wrap;
+    }
+    .product-hover2 {
+      flex: 1;
+    }
+    .product-hover-container {
+      flex-wrap: wrap;
+    }
+    .product-hover3 {
+      flex: 1;
+    }
+    .product-hover-parent1 {
+      flex-wrap: wrap;
+    }
+    .parent2,
+    .total-mrp-parent {
+      flex: 1;
+    }
+    .frame-parent11 {
+      flex-wrap: wrap;
+    }
+    .frame-parent2 {
+      height: auto;
+      padding-bottom: 79px;
+      box-sizing: border-box;
+    }
+    .frame-parent {
+      gap: 16px;
+    }
+    .cart-extended-1 {
+      gap: 26px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .store-name-parent {
+      gap: 20px;
+    }
+    .address,
+    .cart,
+    .payment {
+      font-size: 16px;
+    }
+    .frame-parent1 {
+      flex-wrap: wrap;
+    }
+    .div1,
+    .div3,
+    .div5,
+    .div7,
+    .name-of-this,
+    .name-of-this1,
+    .name-of-this2,
+    .name-of-this3,
+    .order-summary {
+      font-size: 19px;
+    }
+    .price-details1 {
+      font-size: 16px;
+    }
+    .apply-coupon,
+    .coupon-discount,
+    .delivery-charges,
+    .discount-on-mrp,
+    .div8,
+    .div9,
+    .total-mrp {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .div10,
+    .order-total {
+      font-size: 19px;
+    }
+    .order-total-parent {
+      flex-wrap: wrap;
+    }
+    .add-to-cart {
+      font-size: 16px;
+    }
+    .button {
+      gap: 16px;
+    }
+  }
+  .your-cart {
+    width: 111px;
+    border: 0;
+    outline: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    background-color: transparent;
+    height: 30px;
+    position: relative;
+    color: #ababab;
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+  }
+  .drop-down-arrow3 {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .drop-down-arrow-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 0 0;
+  }
+  .component-688,
+  .nav-bar10 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .component-688 {
+    flex: 1;
+    justify-content: space-between;
+    padding: 4px 8px;
+    gap: 20px;
+  }
+  .nav-bar10 {
+    align-self: stretch;
+    backdrop-filter: blur(50px);
+    background-color: #000;
+    justify-content: flex-start;
+    padding: 23px 24px;
+  }
+  .product-hover-child1 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt18 {
+    position: absolute;
+    top: calc(50% - 64.6px);
+    left: 10.4px;
+    border-radius: 20px;
+    width: 149.6px;
+    height: 144.6px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover4 {
+    align-self: stretch;
+    height: 160px;
+    position: relative;
+  }
+  .div80 {
+    margin-top: -7px;
+    position: relative;
+    display: inline-block;
+    min-width: 12px;
+  }
+  .frame-wrapper15,
+  .wrapper14 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper14 {
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .frame-wrapper15 {
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .div81 {
+    position: relative;
+    display: inline-block;
+    min-width: 7px;
+  }
+  .wrapper15 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .div82 {
+    margin-top: -7px;
+    position: relative;
+    display: inline-block;
+    min-width: 14px;
+  }
+  .frame-parent72,
+  .frame-wrapper16,
+  .wrapper16 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .wrapper16 {
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .frame-parent72,
+  .frame-wrapper16 {
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .frame-parent72 {
+    align-self: stretch;
+    border-radius: 56px;
+    border: 1px solid #cdcdcd;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 11px 11px 11px 9px;
+    gap: 20px;
+  }
+  .product-hover-parent3 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 160px;
+  }
+  .name-of-this4 {
+    align-self: stretch;
+    position: relative;
+  }
+  .size12,
+  .xs10 {
+    position: relative;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .xs10 {
+    min-width: 25px;
+  }
+  .size-parent3,
+  .xs-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .size-parent3 {
+    gap: 8px;
+  }
+  .div83 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ababab;
+    display: inline-block;
+    min-width: 58px;
+    white-space: nowrap;
+  }
+  .frame-parent74,
+  .name-of-this-printed-t-shirt-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent74 {
+    gap: 8px;
+    font-size: 20px;
+    color: #7e7e7e;
+  }
+  .name-of-this-printed-t-shirt-parent {
+    align-self: stretch;
+    gap: 4px;
+  }
+  .trashhhh-icon {
+    width: 56px;
+    height: 56px;
+    position: relative;
+  }
+  .cart-item,
+  .frame-parent73 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent73 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 22px;
+    min-width: 192px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .cart-item {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    debug_commit: 1de1738;
+  }
+  .product-hover-child2 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt19 {
+    position: absolute;
+    top: calc(50% - 64.6px);
+    left: 10.4px;
+    border-radius: 20px;
+    width: 149.6px;
+    height: 144.6px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover5 {
+    align-self: stretch;
+    height: 160px;
+    position: relative;
+  }
+  .div84 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-wrapper17,
+  .wrapper17 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .wrapper17 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+  }
+  .frame-wrapper17 {
+    width: 16px;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .div85 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .wrapper18 {
+    align-self: stretch;
+    width: 7px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .div86 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent76,
+  .frame-wrapper18,
+  .wrapper19 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+  }
+  .wrapper19 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .frame-parent76,
+  .frame-wrapper18 {
+    flex-shrink: 0;
+  }
+  .frame-wrapper18 {
+    width: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .frame-parent76 {
+    align-self: stretch;
+    height: 56px;
+    border-radius: 56px;
+    border: 1px solid #cdcdcd;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 11px 13px 9px;
+    gap: 20px;
+  }
+  .product-hover-parent4 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 160px;
+  }
+  .name-of-this5 {
+    align-self: stretch;
+    position: relative;
+  }
+  .size13,
+  .xs11 {
+    position: relative;
+    display: inline-block;
+    min-width: 48px;
+  }
+  .xs11 {
+    min-width: 18px;
+  }
+  .size-parent4,
+  .xs-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .xs-frame {
+    padding: 0 7px 0 0;
+  }
+  .size-parent4 {
+    gap: 8px;
+    font-size: 20px;
+    color: #7e7e7e;
+  }
+  .div87 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 58px;
+    white-space: nowrap;
+  }
+  .frame-parent75,
+  .name-of-this-printed-t-shirt-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .name-of-this-printed-t-shirt-group {
+    flex: 1;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 192px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .frame-parent75 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 468px;
+    flex-direction: row;
+    gap: 12px;
+    max-width: 100%;
+  }
+  .trashhhh-icon1 {
+    position: absolute;
+    top: 184px;
+    left: 424px;
+    width: 56px;
+    height: 56px;
+  }
+  .cart-item1 {
+    align-self: stretch;
+    height: 252px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+    max-width: 100%;
+  }
+  .product-hover-child3 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt20 {
+    position: absolute;
+    top: calc(50% - 64.6px);
+    left: 10.4px;
+    border-radius: 20px;
+    width: 149.6px;
+    height: 144.6px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover6 {
+    align-self: stretch;
+    height: 160px;
+    position: relative;
+  }
+  .div88 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-wrapper19,
+  .wrapper20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .wrapper20 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+  }
+  .frame-wrapper19 {
+    width: 16px;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .div89 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .wrapper21 {
+    align-self: stretch;
+    width: 7px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .div90 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent77,
+  .frame-wrapper20,
+  .wrapper22 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+  }
+  .wrapper22 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .frame-parent77,
+  .frame-wrapper20 {
+    flex-shrink: 0;
+  }
+  .frame-wrapper20 {
+    width: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .frame-parent77 {
+    align-self: stretch;
+    height: 56px;
+    border-radius: 56px;
+    border: 1px solid #cdcdcd;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 11px 13px 9px;
+    gap: 20px;
+  }
+  .product-hover-parent5 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 160px;
+  }
+  .name-of-this6,
+  .size14,
+  .xs12 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .size-parent5,
+  .xs-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .xs-wrapper1 {
+    width: 25px;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+  }
+  .size-parent5 {
+    flex: 1;
+    gap: 8px;
+  }
+  .div91 {
+    width: 58px;
+    height: 36px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ababab;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .frame-parent79,
+  .name-of-this-printed-t-shirt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent79 {
+    width: 81px;
+    flex: 1;
+    gap: 8px;
+    font-size: 20px;
+    color: #7e7e7e;
+  }
+  .name-of-this-printed-t-shirt-container {
+    align-self: stretch;
+    height: 150px;
+    gap: 4px;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .trashhhh-icon2 {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    flex-shrink: 0;
+    debug_commit: 1de1738;
+  }
+  .cart-item2,
+  .frame-parent78 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent78 {
+    height: 172px;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 0 22px;
+    box-sizing: border-box;
+    gap: 22px;
+    min-width: 192px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .cart-item2 {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    debug_commit: 1de1738;
+  }
+  .product-hover-child4 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt21 {
+    position: absolute;
+    top: calc(50% - 64.6px);
+    left: 10.4px;
+    border-radius: 20px;
+    width: 149.6px;
+    height: 144.6px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover7 {
+    align-self: stretch;
+    height: 160px;
+    position: relative;
+  }
+  .div92 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-wrapper21,
+  .wrapper23 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .wrapper23 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+  }
+  .frame-wrapper21 {
+    width: 16px;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .div93 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .wrapper24 {
+    align-self: stretch;
+    width: 7px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .div94 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent80,
+  .frame-wrapper22,
+  .wrapper25 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+  }
+  .wrapper25 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .frame-parent80,
+  .frame-wrapper22 {
+    flex-shrink: 0;
+  }
+  .frame-wrapper22 {
+    width: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .frame-parent80 {
+    align-self: stretch;
+    height: 56px;
+    border-radius: 56px;
+    border: 1px solid #cdcdcd;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 11px 13px 9px;
+    gap: 20px;
+  }
+  .product-hover-parent6 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 160px;
+  }
+  .name-of-this7,
+  .size15,
+  .xs13 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .size-parent6,
+  .xs-wrapper2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .xs-wrapper2 {
+    width: 25px;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+  }
+  .size-parent6 {
+    flex: 1;
+    gap: 8px;
+  }
+  .div95 {
+    width: 58px;
+    height: 36px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ababab;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .frame-parent82,
+  .name-of-this-printed-t-shirt-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent82 {
+    width: 81px;
+    flex: 1;
+    gap: 8px;
+    font-size: 20px;
+    color: #7e7e7e;
+  }
+  .name-of-this-printed-t-shirt-parent1 {
+    align-self: stretch;
+    height: 150px;
+    gap: 4px;
+  }
+  .trashhhh-icon3 {
+    width: 56px;
+    height: 56px;
+    position: relative;
+  }
+  .cart-item3,
+  .frame-parent81 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent81 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 22px;
+    min-width: 192px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .cart-item3 {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    debug_commit: 1de1738;
+  }
+  .product-hover-child5 {
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .basic-women-oversized-t-shirt22 {
+    position: absolute;
+    top: calc(50% - 64.6px);
+    left: 10.4px;
+    border-radius: 20px;
+    width: 149.6px;
+    height: 144.6px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .product-hover8 {
+    align-self: stretch;
+    height: 160px;
+    position: relative;
+  }
+  .div96 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-wrapper23,
+  .wrapper26 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .wrapper26 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    padding: 0 2px;
+  }
+  .frame-wrapper23 {
+    width: 16px;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 7px 0 0;
+  }
+  .div97 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .wrapper27 {
+    align-self: stretch;
+    width: 7px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .div98 {
+    margin-top: -7px;
+    height: 30px;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent83,
+  .frame-wrapper24,
+  .wrapper28 {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+  }
+  .wrapper28 {
+    align-self: stretch;
+    height: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .frame-parent83,
+  .frame-wrapper24 {
+    flex-shrink: 0;
+  }
+  .frame-wrapper24 {
+    width: 18px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+  }
+  .frame-parent83 {
+    align-self: stretch;
+    height: 56px;
+    border-radius: 56px;
+    border: 1px solid #cdcdcd;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px 11px 13px 9px;
+    gap: 20px;
+  }
+  .product-hover-parent7 {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 160px;
+  }
+  .name-of-this8,
+  .size16,
+  .xs14 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .size-parent7,
+  .xs-wrapper3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .xs-wrapper3 {
+    width: 25px;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+  }
+  .size-parent7 {
+    flex: 1;
+    gap: 8px;
+  }
+  .div99 {
+    width: 58px;
+    height: 36px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ababab;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .frame-parent85,
+  .name-of-this-printed-t-shirt-parent2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent85 {
+    width: 81px;
+    flex: 1;
+    gap: 8px;
+    font-size: 20px;
+    color: #7e7e7e;
+  }
+  .name-of-this-printed-t-shirt-parent2 {
+    align-self: stretch;
+    height: 150px;
+    gap: 4px;
+  }
+  .trashhhh-icon4 {
+    width: 56px;
+    height: 56px;
+    position: relative;
+  }
+  .cart-item4,
+  .frame-parent84 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frame-parent84 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 22px;
+    min-width: 192px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .cart-item4 {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    debug_commit: 1de1738;
+  }
+  .cart-item-parent,
+  .frame-wrapper14,
+  .nav-bar-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .cart-item-parent {
+    height: 452px;
+    flex: 1;
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 8px 8px 192px;
+    box-sizing: border-box;
+    gap: 8px;
+  }
+  .frame-wrapper14,
+  .nav-bar-parent {
+    align-self: stretch;
+  }
+  .frame-wrapper14 {
+    flex-direction: row;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  .nav-bar-parent {
+    flex-direction: column;
+  }
+  .div100,
+  .subtotal {
+    position: relative;
+    display: inline-block;
+    min-width: 128px;
+  }
+  .div100 {
+    font-weight: 600;
+    min-width: 75px;
+    white-space: nowrap;
+  }
+  .subtotal-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .add-to-cart28 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #0b78a7;
+    text-align: center;
+    display: inline-block;
+    min-width: 109px;
+  }
+  .button7 {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 20px;
+    background-color: #cdcdcd;
+    align-self: stretch;
+    border-radius: 56px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .button7:hover {
+    background-color: #b5b5b5;
+  }
+  .add-to-cart29 {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #cdcdcd;
+    text-align: center;
+    display: inline-block;
+    min-width: 109px;
+  }
+  .button8,
+  .frame-parent86 {
+    align-self: stretch;
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+  }
+  .button8 {
+    cursor: pointer;
+    border: 1px solid #cdcdcd;
+    padding: 11px 20px;
+    border-radius: 56px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .button8:hover {
+    background-color: #333;
+    border: 1px solid #b5b5b5;
+    box-sizing: border-box;
+  }
+  .frame-parent86 {
+    border-top: 1px solid rgba(255, 255, 255, 0.23);
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 32px 28px 39px;
+    gap: 12px;
+    text-align: left;
+    font-size: 24px;
+    color: #ababab;
+  }
+  .cart3,
+  .frame-parent71 {
+    overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-parent71 {
+    width: 540px;
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.25);
+    background-color: #000;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    max-width: 100%;
+  }
+  .cart3 {
+    width: 1440px;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    line-height: normal;
+    letter-spacing: normal;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #cdcdcd;
+    font-family: Poppins;
+  }
+  @media screen and (max-width: 1200px) {
+    .cart-item-parent {
+      padding-top: 20px;
+      padding-bottom: 125px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .nav-bar10 {
+      gap: 159px;
+    }
+    .cart-item-parent {
+      padding-bottom: 81px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .your-cart {
+      font-size: 16px;
+    }
+    .nav-bar10 {
+      gap: 80px;
+    }
+    .div80,
+    .div81,
+    .div82 {
+      font-size: 16px;
+    }
+    .product-hover-parent3 {
+      flex: 1;
+    }
+    .name-of-this4 {
+      font-size: 19px;
+    }
+    .size12,
+    .xs10 {
+      font-size: 16px;
+    }
+    .div83 {
+      font-size: 19px;
+    }
+    .cart-item {
+      flex-wrap: wrap;
+    }
+    .div84,
+    .div85,
+    .div86 {
+      font-size: 16px;
+    }
+    .product-hover-parent4 {
+      flex: 1;
+    }
+    .name-of-this5 {
+      font-size: 19px;
+    }
+    .size13,
+    .xs11 {
+      font-size: 16px;
+    }
+    .div87 {
+      font-size: 19px;
+    }
+    .frame-parent75 {
+      flex-wrap: wrap;
+    }
+    .cart-item1 {
+      height: auto;
+      min-height: 252;
+    }
+    .div88,
+    .div89,
+    .div90 {
+      font-size: 16px;
+    }
+    .product-hover-parent5 {
+      flex: 1;
+    }
+    .name-of-this6 {
+      font-size: 19px;
+    }
+    .size14,
+    .xs12 {
+      font-size: 16px;
+    }
+    .div91 {
+      font-size: 19px;
+    }
+    .cart-item2 {
+      flex-wrap: wrap;
+    }
+    .div92,
+    .div93,
+    .div94 {
+      font-size: 16px;
+    }
+    .product-hover-parent6 {
+      flex: 1;
+    }
+    .name-of-this7 {
+      font-size: 19px;
+    }
+    .size15,
+    .xs13 {
+      font-size: 16px;
+    }
+    .div95 {
+      font-size: 19px;
+    }
+    .cart-item3 {
+      flex-wrap: wrap;
+    }
+    .div96,
+    .div97,
+    .div98 {
+      font-size: 16px;
+    }
+    .product-hover-parent7 {
+      flex: 1;
+    }
+    .name-of-this8 {
+      font-size: 19px;
+    }
+    .size16,
+    .xs14 {
+      font-size: 16px;
+    }
+    .div99 {
+      font-size: 19px;
+    }
+    .cart-item4 {
+      flex-wrap: wrap;
+    }
+    .cart-item-parent {
+      height: auto;
+    }
+    .div100,
+    .subtotal {
+      font-size: 19px;
+    }
+    .subtotal-parent {
+      flex-wrap: wrap;
+    }
+    .add-to-cart29 {
+      font-size: 16px;
+    }
+  }
+  
